@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Dos';
+    src: url('../fonte/fonte.ttf');
+    font-weight: normal;
+}
+
+:root {
+    --fonte: 'Dos', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+body {
+    /*background-image: url('https://purepng.com/public/uploads/large/purepng.com-super-mariomariosuper-mariovideo-gamefictional-characternintendoshigeru-miyamotomario-franchise-17015286383789a9am.png');*/
+    background-image: linear-gradient(to right, #333c57 0%, #333c57 5%,#257179 5%, #257179 10%, #38b764 10%, #38b764 90%, #257179 90%, #257179 95%, #333c57 95%, #333c57 100%);
+}
+
+header {
+    background-color: #41a6f6;
+    border: 3px solid #3b5dc9;
+    padding: 12px;
+    box-shadow: 0px 3px 0px #29366f;
+}
+
+nav {
+    text-align: center;
+    font-size: 3vh;
+    
+}
+
+nav > a{
+    color: #29366f;
+    font-family: var(--fonte);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    display: block;
+}
+
+nav > a:hover{
+    background-color: #ef7d57;
+    color: #5d275d;
+    border: 3px solid #b13e53;
+    margin: 7px;
+    box-shadow: 0px 3px 0px #97274e;
+}
+
+.center {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 300px;
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: #e9b14e;
+    min-width: 300px; /* Tamanho mínimo da largura */
+    max-width: 1000px;
+    border-bottom: 3px solid #b66c26;
+    border-left: 3px solid #b66c26;
+    border-right: 3px solid #b66c26;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 3px 0px #724b2c;
+    font-family: var(--fonte);
+    font-size: 2vh;
+}
