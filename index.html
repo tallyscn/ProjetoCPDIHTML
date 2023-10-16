@@ -34,6 +34,10 @@
             font-size: calc(10px + 0.7vw);
         }
 
+        main > p > a {
+            text-decoration: none;
+        }
+
         .imagens {
             display: flex;
             justify-content: center;
@@ -64,13 +68,16 @@
 <body>
     <header>
         <img src="imagens/logo.png" alt="logo Chefe Rural" class="center">
+        
+    </header>
+    <div class="nav">
         <nav>
             <a href="#">Chefe Rural</a>
             <a href="#">O projeto</a>
             <a href="#">Quem Somos</a>
             <a href="#">Jogo</a>
         </nav>
-    </header>
+    </div>
     <main>
         <h1>Chefe Rural</h1>
         <br>
@@ -79,18 +86,32 @@
         <h2>Vídeo demonstrativo</h2>
         <div class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Ft1o-b6O0a4?si=Elfg1DhtuL72YOLN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+        </div>
         <br>
         <h2>Sobre o jogo</h2>
-        <br>
-        <p>O jogo consiste no seguinte, na primeira fase o jogador deve plantar os materiais disponíveis em seu acervo, colocar fertilizantes e água e então colhé-los.</p>
         <br>
         <div class="imagens">
             <img src="imagens/img1.png" alt="" class="imgtexto">
         </div>
         <br>
+        <p>No menu você pode selecionar para iniciar um novo jogo, continuar de onde você parou, e selecionar os níveis que quer jogar.</p>
         <br>
-        <p>Feito isso, o jogador vai para uma na cozinha. Nela, os pedidos aparecem acima e construímos o prato conforme indica o pedido, e, após feito, o prato vai para a pia, lavamos ele e continuamos a servir.</p>
+        <div class="imagens">
+            <img src="imagens/img2.png" alt="" class="imgtexto">
+        </div>
+        <br>
+        <p>O jogo consiste no seguinte, na primeira fase o jogador deve plantar os materiais disponíveis em seu acervo, colocar fertilizantes e água e então colhé-los.</p>
+        <br>
+        <div class="imagens">
+            <img src="imagens/img3.png" alt="" class="imgtexto">
+        </div>
+        <br>
+        <p>Feito isso, o jogador vai para uma na cozinha. Nela, os pedidos aparecem acima e construímos o prato conforme indica o pedido, e, após feito, o prato vai para a pia, lavamos ele e continuamos a servir até o tempo se esgotar.</p>
+        <br>
+        <br>
+        <h2>Motivações e planos futuros</h2>
+        <br>
+        <p>Nossa inspiração se baseou na <a href="">ODS 2</a>(Objetivos de Desenvolvimento Sustentável), que fala sobre a fome e a agricultura sustentável, onde nós, jogamos como um agricultor e cozinheiro que cozinha para os mais necessitados.</p>
     </main>
 </body>
 </html>
