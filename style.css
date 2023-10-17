@@ -19,8 +19,9 @@
     font-size: 1em;
 }
 body {
-    /*background-image: url('https://purepng.com/public/uploads/large/purepng.com-super-mariomariosuper-mariovideo-gamefictional-characternintendoshigeru-miyamotomario-franchise-17015286383789a9am.png');*/
-    background-image: linear-gradient(to right, #333c57 0%, #333c57 5%,#257179 5%, #257179 10%, #38b764 10%, #38b764 90%, #257179 90%, #257179 95%, #333c57 95%, #333c57 100%);
+    background-image: url('imagens/fundo.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 p {font-family:'Kanit', sans-serif;}
@@ -35,6 +36,7 @@ header {
 .nav {
     position: fixed;
     height: 100%;
+    margin-top: 40px;
 }
 
 nav {
