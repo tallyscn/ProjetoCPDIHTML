@@ -39,28 +39,36 @@ header {
     margin-top: 40px;
 }
 
+<<<<<<< Updated upstream
 nav {
     text-align: center;
     font-size: 3vh;
+=======
+#barra {
+    position: absolute;
+    object-fit: contain;
+    width: 70px;
+    height: auto;
+>>>>>>> Stashed changes
 }
 
-nav > a{
-    color: #29366f;
-    font-family: var(--fonte);
-    text-decoration: none;
-    padding: 10px;
-    font-weight: bold;
-    border-radius: 5px;
-    margin: 10px;
-    display: block;
+#icone-chefe {
+    position: absolute;
+    object-fit: contain;
+    left: 4px;
+    top: 28px;
+    width: 57px;
+    height: auto;
+    
 }
 
-nav > a:hover{
-    background-color: #ef7d57;
-    color: #5d275d;
-    border: 3px solid #b13e53;
-    margin: 7px;
-    box-shadow: 0px 3px 0px #97274e;
+#icone-ativo-chefe {
+    position: absolute;
+    object-fit: contain;
+    top: 28px;
+    width: 300px;
+    height: auto;
+    transform: translateX(-100%); /* Inicialmente deslocado à esquerda */
 }
 
 .center {
