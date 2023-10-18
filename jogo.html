@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+
         main > h1 {
             background-color: #ef7d57;
             color: #5d275d;
@@ -34,8 +35,34 @@
             font-size: calc(10px + 0.7vw);
         }
 
-        main > p > a {
+        .container > a {
+            color: #29366f;
+            font-family: var(--fonte);
             text-decoration: none;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 10px;
+            display: block;
+            font-size: calc(1.7vw + 15px);
+            width: calc(20vw + 30px);
+            text-align: center;
+        }
+
+        .container > a:hover {
+            background-color: #ef7d57;
+            color: #5d275d;
+            border: 3px solid #b13e53;
+            margin: 7px;
+            box-shadow: 0px 3px 0px #97274e;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 30vh;
         }
     </style>
 </head>
@@ -53,7 +80,14 @@
         </nav>
     </div>
     <main>
-
+        <h2>Download</h2>
+        <br>
+        <br>
+        <p>Abaixo está disponível nosso jogo para download. Aproveitem!</p>
+        <br>
+        <div class="container">
+            <a href="downloads/cheferural.apk" downloads="cheferural.apk" type="application/apk">Download</a>
+        </div>
     </main>
 </body>
 </html>
