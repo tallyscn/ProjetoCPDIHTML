@@ -39,17 +39,11 @@ header {
     margin-top: 40px;
 }
 
-<<<<<<< Updated upstream
-nav {
-    text-align: center;
-    font-size: 3vh;
-=======
 #barra {
     position: absolute;
     object-fit: contain;
     width: 70px;
     height: auto;
->>>>>>> Stashed changes
 }
 
 #icone-chefe {
@@ -58,6 +52,7 @@ nav {
     left: 4px;
     top: 28px;
     width: 57px;
+    z-index: 2;
     height: auto;
     
 }
@@ -65,9 +60,10 @@ nav {
 #icone-ativo-chefe {
     position: absolute;
     object-fit: contain;
-    top: 28px;
-    width: 300px;
+    top: 25px;
+    width: 279px;
     height: auto;
+    z-index: 1;
     transform: translateX(-100%); /* Inicialmente deslocado à esquerda */
 }
 
