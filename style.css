@@ -52,7 +52,6 @@ header {
     left: 4px;
     top: 28px;
     width: 57px;
-    z-index: 2;
     height: auto;
     
 }
@@ -63,7 +62,6 @@ header {
     top: 25px;
     width: 279px;
     height: auto;
-    z-index: 1;
     transform: translateX(-100%); /* Inicialmente deslocado à esquerda */
 }
 
