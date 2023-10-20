@@ -39,6 +39,16 @@ header {
     margin-top: 40px;
 }
 
+footer {
+    background-color: #29366f;
+    color: #f4f4f4;
+    padding: 5px;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
 #barra {
     position: absolute;
     object-fit: contain;
@@ -64,6 +74,64 @@ header {
     height: auto;
     transform: translateX(-100%); /* Inicialmente deslocado à esquerda */
 }
+
+#icone-projeto {
+    position: absolute;
+    object-fit: contain;
+    left: 4px;
+    top: 90px;
+    width: 57px;
+    height: auto;
+    
+}
+
+#icone-ativo-projeto {
+    position: absolute;
+    object-fit: contain;
+    top: 87px;
+    width: 279px;
+    height: auto;
+    transform: translateX(-100%); /* Inicialmente deslocado à esquerda */
+}
+
+#icone-quem {
+    position: absolute;
+    object-fit: contain;
+    left: 4px;
+    top: 152px;
+    width: 57px;
+    height: auto;
+    
+}
+
+#icone-ativo-quem {
+    position: absolute;
+    object-fit: contain;
+    top: 149px;
+    width: 279px;
+    height: auto;
+    transform: translateX(-100%); /* Inicialmente deslocado à esquerda */
+}
+
+#icone-download {
+    position: absolute;
+    object-fit: contain;
+    left: 4px;
+    top: 214px;
+    width: 57px;
+    height: auto;
+    
+}
+
+#icone-ativo-download {
+    position: absolute;
+    object-fit: contain;
+    top: 211px;
+    width: 279px;
+    height: auto;
+    transform: translateX(-100%); /* Inicialmente deslocado à esquerda */
+}
+
 
 .center {
     margin-top: 10px;
