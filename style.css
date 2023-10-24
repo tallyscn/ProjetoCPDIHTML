@@ -2,7 +2,7 @@
 
 @font-face{
     font-family: 'Dos';
-    src: url('../fonte/fonte.ttf');
+    src: url('/../fonte/fonte.ttf');
     font-weight: normal;
     format(.ttf);
 }
