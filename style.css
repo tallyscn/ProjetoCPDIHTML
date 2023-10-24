@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Pixelify+Sans&display=swap');
 
 :root {
-    --fonte: font-family: 'Pixelify Sans', sans-serif;
+    --fonte:'Pixelify Sans', sans-serif;
 }
 *{
     font-family: var(--fonte);
