@@ -1,16 +1,10 @@
 @charset "UTF-8";
 
-@font-face{
-    font-family: 'Dos';
-    src: url('../fonte/fonte.ttf');
-    font-weight: normal;
-    format(.ttf);
-}
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Pixelify+Sans&display=swap');
 
 :root {
-    --fonte: 'Dos', cursive;
+    --fonte: font-family: 'Pixelify Sans', sans-serif;
 }
 *{
     font-family: var(--fonte);
