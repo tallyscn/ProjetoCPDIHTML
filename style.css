@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
-/*@font-face{
+@font-face{
     font-family: 'Dos';
     src: url('../fonte/fonte.ttf');
     font-weight: normal;
     format(.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Pixelify+Sans&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Pixelify+Sans&display=swap');*/
 
 
 *{
-    font-family:'Kanit', sans-serif;
+    font-family:'Dos', cursive;
     margin: 0px;
     padding: 0px;
     font-size: 1em;
